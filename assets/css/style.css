@@ -46,8 +46,6 @@ header{
 .headercontainer{
 	margin: auto;
 	width: 960px;
-	border-bottom: thin;
-	border-bottom-color: pink;
 }
 
 .headermain{
@@ -82,6 +80,7 @@ header{
 	width: 650px;
 	float: left;
 	background-color: white;
+	border: thin solid #dddddd;
 	padding: 15px;
 	margin-bottom: 90px;
 	padding: 15px;
@@ -124,6 +123,7 @@ header{
 	width: 270px;
 	float: right;
 	background-color: white;
+	border: thin solid #dddddd;
 }
 
 .rightcontainerheading{
