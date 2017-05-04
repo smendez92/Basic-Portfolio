@@ -135,7 +135,7 @@ input[type=submit] {
 	color: #777777;
 	font-size: 15px;
 	width: 605px;
-	padding: 15px 0px 15px 15px;
+	padding: 25px 0px 15px 15px;
 	line-height: 200%;
 }
 
@@ -166,20 +166,33 @@ input[type=submit] {
     color: #777777;
 }
 
+.portfoliothumbnaillabel{
+	position: absolute;
+	bottom: 10px;
+	height: 40px;
+	width: 100%;
+	color: white;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding-top: 5px;
+}
+
 .portfoliothumbnailboxleft{
 	float: left;
-	width: 285px;
+	width: 275px;
 	height: 200px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	background-color: black;
+	position: relative;
 }
 
 .portfoliothumbnailboxright{
 	float: right;
-	width: 285px;
+	width: 275px;
 	height: 200px;
-	margin-bottom: 30px
-	background-color: black;
+	margin-bottom: 40px;
+	background-color: blue;
+	position: relative;
 }
 
 .profpic{
