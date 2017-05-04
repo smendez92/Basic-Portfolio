@@ -23,21 +23,22 @@ body {
 footer {
 	background-color: #666666;
 	bottom: 0;
-	height: 60px;
+	height: 80px;
 	position: fixed;
 	width: 100%;
+	border-top: 5px solid #4aaaa5;
 }
 
 header {
-	border: normal solid yellow;
 	background-color: #ffffff;
 	width: 100%;
-	height: 50px;
+	border-bottom: 2px solid #cccccc;
 }
 
 .connecticonscontainer{
 	width: 240px;
 	margin: auto;
+	padding: 15px 0px 30px 0px;
 }
 
 .copyright{
@@ -45,36 +46,64 @@ header {
 	font-weight: lighter;
 	font-size: 9px;
 	text-align: center;
-	color: white;
-	padding: 25px;
+	color: #cccccc;
+	padding: 35px;
+}
+
+.headeraboutbox{
+	float: left;
+	width: 80px;
+	height: 15px;
+	padding: 0px 15px 0px 0px;
+	text-align: right;
+}
+
+.headercontactbox{
+	float: left;
+	width: 80px;
+	height: 15px;
+	padding: 0px 0px 0px 15px;
+	text-align: left;
 }
 
 .headercontainer{
 	margin: auto;
 	width: 960px;
+	height: 70px;
+	background-color: #ffffff;
 }
 
 .headermain{
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
-	padding: 15px;
+	padding-top: 20px;
 	width: 200px;
-	height: 50px;
+	height: 70px;
 	float: left;
 	background-color: #4aaaa5;
 }
 
+.headerportfoliobox{
+	float: left;
+	width: 80px;
+	padding: 0px 15px 0px 15px;
+	height: 15px;
+	text-align: center;
+	border-left: thin solid #ddd;
+	border-right: thin solid #ddd;
+}
+
 .headerside{
 	width: 270px;
-	height: 50px;
+	height: 40px;
 	float: right;
-	text-align: left;
 	background-color: white;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 14px;
-	padding: 15px;
+	padding: 20px 0px 0px 15px;
 }
+
 
 .icon{
 	width: 50px;
@@ -88,7 +117,7 @@ header {
 	background-color: white;
 	border: thin solid #dddddd;
 	padding: 15px;
-	margin-bottom: 90px;
+	margin-bottom: 120px;
 	padding: 15px;
 }
 
@@ -96,7 +125,8 @@ header {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 15px;
 	width: 600px;
-	margin: 15px;
+	padding: 15px 15px 15px 15px;
+	line-height: 200%;
 }
 
 .leftcontainerheading{
@@ -122,7 +152,7 @@ header {
 	float: left;
 	width: 250px;
 	height: 250px;
-	margin: 15px;
+	margin: 25px 15px 0px 15px;
 }
 
 .rightcontainer{
@@ -142,4 +172,5 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20px;
     font-weight: bold;
+	padding: 30px 15px 15px 15px;
 }
